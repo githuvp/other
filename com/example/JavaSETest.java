@@ -9,8 +9,8 @@ public class JavaSETest {
 	public static void main(String[] args) {
 		List<Integer> elements = new ArrayList<>();
 		elements.add(10);
-		//elements.add(1000);
-		//elements.add(100);
+		elements.add(1000);
+		elements.add(100); /// Simple commentssssss
 		int firstElmnt = elements.get(1);
 		System.out.println("now this will print some number as: " + firstElmnt);
 	}
